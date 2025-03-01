@@ -1,0 +1,122 @@
+/* fonts secton  */
+
+
+.inter-red {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  
+.montserrat-new {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /* font weight 100-800 */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+/* ------ tag  section */
+h2{
+color: white;
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+letter-spacing: 7px;
+}
+h3{
+    color: rgb(212, 214, 229);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+h4{
+    color: rgb(212, 214, 229);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px 0px ;
+}
+p{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+    padding: 10px;
+}
+em{
+    color: white;
+    margin-left: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    
+    
+    
+}
+span{
+    border-left: 1px dashed white;
+    margin-left: 10px;
+    padding-left: 14px;
+    display: block;
+}
+i{
+    color: white;
+    margin: 9px ;
+}
+b{
+    color: aqua;
+}
+hr{
+    margin:  10px 4px;
+    height: 3px;
+    background-color: pink;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+/*--------------------------------- main div  */
+.main-div{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+/*---------- this innner div -------- */
+.resume-div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 54, 54);
+    width: 40%;
+    height: 100vh;
+    padding: 10px;
+    overflow: auto;
+    
+}
+.skill-div{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    
+}
+/* --------------------p section  */
+.p-extented{
+    border-left: 1px dashed white;
+    margin-left: 10px;
+    padding-left: 14px;
+}
