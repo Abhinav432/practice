@@ -48,7 +48,7 @@ h4{
     margin: 15px 0px ;
 }
 p{
-    color: white;
+    color: rgb(235, 226, 226);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -67,13 +67,13 @@ em{
     
 }
 span{
-    border-left: 1px dashed white;
+    border-left: 1px dashed rgb(12, 227, 26);
     margin-left: 10px;
     padding-left: 14px;
     display: block;
 }
 i{
-    color: white;
+    color: rgb(82, 94, 223);
     margin: 9px ;
 }
 b{
@@ -82,7 +82,7 @@ b{
 hr{
     margin:  10px 4px;
     height: 3px;
-    background-color: rgb(204, 35, 35);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     border: none;
 }
@@ -93,7 +93,8 @@ hr{
 .main-div{
     display: flex;
     flex-direction: row;
-   
+   border: 13px solid aqua;
+   padding: 7px;
 
 }
 /*---------- this innner div -------- */
@@ -102,7 +103,7 @@ hr{
     flex-direction: column;
     background-color: rgb(56, 54, 54);
     width: 40%;
-    height: 100vh;
+    height: 100%;
     padding: 10px;
     overflow: auto;
     
@@ -111,9 +112,33 @@ hr{
     display: flex;
     flex-direction: column;
     width: 70%;
-    height: 100vh;
+    height: 60%;
+    margin-top: 20px;
+    overflow: hidden;
+
     
 }
+/* skill section  style  */
+.skill-title{
+    background-color: rgba(25, 23, 23, 0.785);
+    width: 23%;
+    padding: 12px;
+    margin: 15px;
+}
+.skill-content{
+    background-color: azure;
+    margin:8px;
+}
+.bar{
+    height: 20%;
+    width: 70%;
+    background-color: rgba(2, 3, 3, 0.473);
+    margin-left:55px ;
+    margin-top: 12px;
+    color: black;
+    border-radius: 7px;
+}
+
 /* --------------------p section  */
 .p-extented{
     border-left: 1px dashed white;
