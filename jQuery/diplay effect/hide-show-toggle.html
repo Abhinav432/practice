@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       #div1{
+            background-color:red;
+            border: 3px solid black;
+            height: 230px;
+            /* display: none; */
+        }
+        #div2{
+            background-color:rgb(101, 93, 93);
+            border: 3px solid black;
+            height: 230px;
+            display: none;
+        }
+        #div3{
+            background-color:rgb(28, 205, 190);
+            border: 3px solid black;
+            height: 230px;
+            width: 230px;
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        // =======for hide the div-====
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#div1").hide(4000);
+            });
+        });
+        // for show the div in  clik ======
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("#div2").show(4000);
+            });
+        });
+        // for Toggle ========
+        $(document).ready(function(){
+            $("#btn3").click(function(){
+                $("#div3").toggle(4000 );
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- button 1st for hide -->
+    <button  id="btn">click hide</button> <br> <br>
+    <div id="div1"></div>
+    <!-- buton 2nd for show  -->
+    <button  id="btn1">click show  </button> <br> <br>
+    <div id="div2"></div>
+    <!-- buttton 3rd for togg;e  -->
+    <button id="btn3"> click toggle</button> <br><br>
+    <div id="div3"></div>
+</body>
+</html>
